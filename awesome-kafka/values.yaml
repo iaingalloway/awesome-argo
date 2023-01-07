@@ -4,4 +4,4 @@ kafka:
     service:
       type: NodePort
       nodePorts:
-        - 34111
+        - 31111
