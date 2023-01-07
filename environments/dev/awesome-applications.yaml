@@ -10,7 +10,7 @@ spec:
     namespace: argocd
   project: default
   source:
-    path: awesome-applications
+    path: environments/dev/awesome-applications
     repoURL: https://github.com/iaingalloway/awesome-argo.git
     targetRevision: HEAD
   syncPolicy:

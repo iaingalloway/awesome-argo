@@ -10,7 +10,7 @@ spec:
     namespace: awesome-argo
   project: default
   source:
-    path: awesome-kafka
+    path: environments/dev/awesome-kafka
     repoURL: https://github.com/iaingalloway/awesome-argo.git
     targetRevision: HEAD
   syncPolicy:

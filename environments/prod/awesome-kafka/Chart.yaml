@@ -1,0 +1,8 @@
+name: awesome-kafka
+apiVersion: v2
+version: 1.0.0
+dependencies:
+  - name: kafka
+    version: 20.0.2
+    repository: https://charts.bitnami.com/bitnami
+    
