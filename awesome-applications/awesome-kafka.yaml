@@ -1,0 +1,21 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
+  name: awesome-kafka
+spec:
+  destination:
+    name: in-cluster
+    namespace: awesome-argo
+  project: default
+  source:
+    path: awesome-kafka
+    repoURL: https://github.com/iaingalloway/awesome-argo.git
+    targetRevision: HEAD
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
+    syncOptions:
+    - CreateNamespace=true
