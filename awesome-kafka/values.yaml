@@ -1,5 +1,6 @@
 kafka:
   externalAccess:
     enabled: true
-    autoDiscovery:
-      enabled: true
+    service:
+      loadBalancerNames:
+        - "awesome-kafka-load-balancer"
