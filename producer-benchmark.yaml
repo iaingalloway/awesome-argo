@@ -24,6 +24,12 @@ spec:
         args:
           - "--bootstrap-servers"
           - "awesome-kafka.awesome-argo.svc.cluster.local:9092"
+          - "--replicas"
+          - "1"
+          - "--partitions"
+          - "1"
+          - "--num-records"
+          - "1000000"
         resources: 
           requests:
             memory: "2Gi"
