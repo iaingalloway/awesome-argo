@@ -1,3 +1,4 @@
 kafka:
   externalAccess:
     enabled: false
+  deleteTopicEnable: true
