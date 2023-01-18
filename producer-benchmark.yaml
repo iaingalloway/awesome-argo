@@ -24,7 +24,6 @@ spec:
         args:
           - "--bootstrap-servers"
           - "awesome-kafka.awesome-argo.svc.cluster.local:9092"
-          - "--producer-config"
         resources: 
           requests:
             memory: "2Gi"
