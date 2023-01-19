@@ -3,4 +3,4 @@ kafka:
     enabled: false
   deleteTopicEnable: true
   persistence:
-    storageClass: premium-rwo
+    storageClass: ssd
