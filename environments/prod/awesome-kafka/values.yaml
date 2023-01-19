@@ -2,4 +2,5 @@ kafka:
   externalAccess:
     enabled: false
   deleteTopicEnable: true
-  
+  persistence:
+    storageClass: premium-rwo
