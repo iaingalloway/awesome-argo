@@ -2,5 +2,3 @@ kafka:
   externalAccess:
     enabled: false
   deleteTopicEnable: true
-  persistence:
-    storageClass: ssd
